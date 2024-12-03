@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Day1": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\Kerod\\source\\repos\\AdventOfCode2024\\Day1"
+    }
+  }
+}
