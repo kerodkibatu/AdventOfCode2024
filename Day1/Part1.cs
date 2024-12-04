@@ -7,14 +7,9 @@
         List<int> As = [];
         List<int> Bs = [];
 
-        string process(string line)
-        {
-            return line.Replace("   ", " ");
-        }
-
         foreach (var line in lines)
         {
-            int[] Items = [.. process(line).Split(" ").Select(int.Parse)];
+            int[] Items = [.. line.Split("   ").Select(int.Parse)];
 
             As.Add(Items[0]);
             Bs.Add(Items[1]);
